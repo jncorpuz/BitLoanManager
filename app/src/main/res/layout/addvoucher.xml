@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/voucher_b">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="204dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginStart="62dp"
+        android:background="@drawable/button"
+        android:text="Create Voucher"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="270dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/transparentboxb"
+        android:ems="10"
+        android:hint="Voucher Code"
+        android:inputType="none"
+        android:padding="8dp"
+        android:textColorHint="#728aa5"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="270dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/transparentboxb"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColorHint="#728aa5"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText12" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="270dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/transparentboxb"
+        android:ems="10"
+        android:hint="Discount"
+        android:inputType="none"
+        android:padding="8dp"
+        android:textColorHint="#728aa5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack7" />
+
+    <ImageView
+        android:id="@+id/btnBack7"
+        android:layout_width="23dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/menu" />
+</android.support.constraint.ConstraintLayout>
