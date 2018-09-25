@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/menu" />
 
     <EditText
-        android:id="@+id/editText16"
+        android:id="@+id/txtConfirmPassword"
         android:layout_width="270dp"
         android:layout_height="43dp"
         android:layout_marginEnd="29dp"
@@ -36,10 +36,10 @@
         android:textColorHint="#728aa5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNewPassword" />
 
     <EditText
-        android:id="@+id/editText15"
+        android:id="@+id/txtNewPassword"
         android:layout_width="270dp"
         android:layout_height="43dp"
         android:layout_marginEnd="29dp"
@@ -55,10 +55,10 @@
         android:textColorHint="#728aa5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText14" />
+        app:layout_constraintTop_toBottomOf="@+id/txtOldPassword" />
 
     <EditText
-        android:id="@+id/editText14"
+        android:id="@+id/txtOldPassword"
         android:layout_width="270dp"
         android:layout_height="43dp"
         android:layout_marginEnd="29dp"
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnBack8" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/cmdUpdatePass"
         android:layout_width="127dp"
         android:layout_height="34dp"
         android:layout_marginBottom="127dp"
@@ -88,16 +88,17 @@
         android:layout_marginTop="33dp"
         android:background="@drawable/yesbtn"
         android:text="Update"
+        android:onClick="UpdatePassword"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button14"
+        app:layout_constraintEnd_toStartOf="@+id/cmdCancelPass"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText16" />
+        app:layout_constraintTop_toBottomOf="@+id/txtConfirmPassword" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/cmdCancelPass"
         android:layout_width="127dp"
         android:layout_height="34dp"
         android:layout_marginBottom="127dp"
@@ -108,11 +109,12 @@
         android:layout_marginTop="33dp"
         android:background="@drawable/nobtn"
         android:text="Cancel"
+        android:onClick="CancelChangePassword"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button13"
-        app:layout_constraintTop_toBottomOf="@+id/editText16" />
+        app:layout_constraintStart_toEndOf="@+id/cmdUpdatePass"
+        app:layout_constraintTop_toBottomOf="@+id/txtConfirmPassword" />
 </android.support.constraint.ConstraintLayout>

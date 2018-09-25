@@ -8,7 +8,7 @@
     android:background="@drawable/voucher_b">
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/cmdUpdate"
         android:layout_width="204dp"
         android:layout_height="40dp"
         android:layout_marginBottom="41dp"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editText13"
+        android:id="@+id/txtPassword1"
         android:layout_width="270dp"
         android:layout_height="43dp"
         android:layout_marginEnd="29dp"
@@ -65,10 +65,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText12" />
+        app:layout_constraintTop_toBottomOf="@+id/txtNewEmail" />
 
     <EditText
-        android:id="@+id/editText12"
+        android:id="@+id/txtNewEmail"
         android:layout_width="270dp"
         android:layout_height="43dp"
         android:layout_marginEnd="29dp"

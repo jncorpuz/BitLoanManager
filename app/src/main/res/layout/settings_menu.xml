@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +7,7 @@
     android:background="@drawable/settings">
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/cmdUpdateInformation"
         android:layout_width="235dp"
         android:layout_height="50dp"
         android:layout_marginEnd="46dp"
@@ -18,15 +17,16 @@
         android:layout_marginTop="17dp"
         android:background="@drawable/greenbtn"
         android:text="Update Information"
+        android:onClick="UpdateInformation"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintTop_toBottomOf="@+id/cmdChangePassword" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/cmdChangePassword"
         android:layout_width="235dp"
         android:layout_height="50dp"
         android:layout_marginEnd="46dp"
@@ -36,16 +36,17 @@
         android:layout_marginTop="17dp"
         android:background="@drawable/greenbtn"
         android:text="Change Password"
+        android:onClick="ChangePassword"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        app:layout_constraintTop_toBottomOf="@+id/cmdChangeEmail" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/cmdChangeEmail"
         android:layout_width="235dp"
         android:layout_height="50dp"
         android:layout_marginEnd="46dp"
@@ -55,6 +56,7 @@
         android:layout_marginTop="164dp"
         android:background="@drawable/greenbtn"
         android:text="Change Email Address"
+        android:onClick="ChangeEmail"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
