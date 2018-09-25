@@ -8,7 +8,7 @@ import retrofit2.http.*;
 public interface API {
     String BASE_URL ="https://bitloan.azurewebsites.net/api/";
 
-    @POST("Account/LoginU")
+    @POST("Account/LoginManager")
     Call<Account> LoginUser(@Query("username") String username, @Query("password") String password);
 
     //@GET("Account/Login")
