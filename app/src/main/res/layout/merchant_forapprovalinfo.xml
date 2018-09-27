@@ -24,10 +24,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtLoanAmount" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/txtLoanAmount"
         android:layout_width="270dp"
         android:layout_height="70dp"
         android:layout_marginEnd="29dp"
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText10" />
+        app:layout_constraintTop_toBottomOf="@+id/txtLoanRequested" />
 
     <ImageView
         android:id="@+id/btnBack4"
@@ -58,7 +58,7 @@
         app:srcCompat="@drawable/menu" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnApproveLoan"
         android:layout_width="127dp"
         android:layout_height="34dp"
         android:layout_marginEnd="16dp"
@@ -71,12 +71,12 @@
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
         android:textSize="15sp"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancelLoan"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnCancelLoan"
         android:layout_width="127dp"
         android:layout_height="34dp"
         android:layout_marginEnd="29dp"
@@ -90,11 +90,11 @@
         android:textColor="@android:color/background_light"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintStart_toEndOf="@+id/btnApproveLoan"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <EditText
-        android:id="@+id/editText10"
+        android:id="@+id/txtLoanRequested"
         android:layout_width="270dp"
         android:layout_height="43dp"
         android:layout_marginEnd="29dp"
